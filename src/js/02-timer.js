@@ -6,7 +6,7 @@ const input = document.getElementById('datetime-picker');
 const startBtn = document.querySelector('button[data-start]');
 const disableBtn = startBtn.setAttribute('disabled', 'true');
 
-refs = {
+const refs = {
   days: document.querySelector('span[data-days]'),
   hours: document.querySelector('span[data-hours]'),
   minutes: document.querySelector('span[data-minutes]'),
